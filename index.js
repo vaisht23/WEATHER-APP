@@ -5,7 +5,7 @@ const apikey= '6fd1886d7c734b7da7d124122232701';
 function gotoApi() {
     var CityName = document.getElementById('cityInput').value;
 console.log(CityName)
-const Apiurl = `http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${CityName}&aqi=no`;
+const Apiurl = `https://api.weatherapi.com/v1/current.json?key=${apikey}&q=${CityName}&aqi=no`;
 
 console.log(Apiurl);
 fetch(Apiurl)
